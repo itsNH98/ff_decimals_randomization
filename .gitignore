@@ -1,5 +1,6 @@
 *.csv
 *.pdf
-\redaction
+\redaction 
 \rounded_factors
 \literature
+!ff_decimals.pdf
