@@ -1,6 +1,31 @@
-*.csv
-*.pdf
-\redaction 
-\rounded_factors
-\literature
-!ff_decimals.pdf
+# Environment variables and secrets
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Data files (large)
+*.parquet
+*.csv.gz
+data/raw/
+
+# Results (keep structure, ignore large outputs)
+results/cache/
