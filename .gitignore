@@ -29,3 +29,5 @@ data/raw/
 
 # Results (keep structure, ignore large outputs)
 results/cache/
+data/
+outputs/
